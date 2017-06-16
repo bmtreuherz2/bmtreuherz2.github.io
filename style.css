@@ -1,0 +1,40 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  background-image: url(assets/img/heart.gif);
+  background-size: 20%;
+}
+
+.center{
+  text-align: center;
+}
+
+.resizeable-container{
+  width: 650px;
+  margin: 0 auto;
+}
+
+.size-small{
+  zoom: 0.4;
+  -moz-transform: scale(0.4);
+}
+
+.clock{
+  margin: 50px 0 25px 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  font-size: 16px;
+}
+
+.jumbotron{
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+.btn {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+}

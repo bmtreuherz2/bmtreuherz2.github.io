@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Countdown</title>
+
+    <!-- Libraries -->
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/flipclock/css/flipclock.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+
+    <!-- <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="clock"></div>
+      </div>
+    </div> -->
+    <div id="test-banner" class="alert alert-info" role="alert" style="margin-bottom:0;display:none;">Your test has been graded!</div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container resizeable-container">
+        <h1 class="display-3 center">There are</h1>
+        <div class="clock"></div>
+        <h4 class="display-3 center">remaining!</h4>
+      </div>
+
+      <div class="container" style="width:100%; margin:20px 0 0 0;">
+        <div id="show-test-btn-container" class="row" style="display:none;">
+          <button id="show-test-btn" class="btn btn-default" style="margin: 0 auto;">
+            View Test Scores
+          </button>
+        </div>
+        <div id="test-results" class="row" style="display:none;">
+          <div class="alert alert-success" role="alert" style="margin:0 auto; width:25%; text-align:center">You Passed!</div>
+        </div>
+      </div>
+    </div
+
+    <!-- Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/flipclock/js/flipclock.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
