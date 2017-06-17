@@ -55,7 +55,10 @@ $(window).resize(function() {
 var checkWindowSize = function(){
   if(window.innerWidth < 650 || isMobile){
     $('.resizeable-container').addClass('size-small');
+		$('.temporary-shit').html("SMALL");
   } else if (window.innerWidth > 650){
     $('.resizeable-container').removeClass('size-small');
+		$('.temporary-shit').html("BIG");
+
   }
 }
