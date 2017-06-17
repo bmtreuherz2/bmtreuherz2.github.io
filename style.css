@@ -16,8 +16,8 @@ body{
 }
 
 .size-small{
-  zoom: 0.5;
-  -moz-transform: scale(0.5);
+  zoom: 0.54;
+  -moz-transform: scale(0.54);
 }
 
 .clock{
@@ -37,4 +37,23 @@ body{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.1;
+}
+
+
+.clock {
+position: relative !important;
+padding-top: 0px;
+/*margin-left: -194px;*/
+/*height:100px;*/
+/*width: 800px;*/
+/zoom: .6;/
+transform: scale(.54);
+-ms-transform: scale(.54); /* IE 9 /
+-webkit-transform: scale(.54); / Safari and Chrome /
+-o-transform: scale(.54); / Opera /
+-moz-transform: scale(.54); / Firefox */
+}
+
+.flip-clock-wrapper {
+position: relative;
 }
