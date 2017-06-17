@@ -4,6 +4,7 @@ var endDate = new Date("08/10/2017");
 var timeRemaining = (endDate.getTime() - startDate.getTime()) / 1000;
 var isMobile = false;
 
+timeRemaining = 180;
 
 var clock = new FlipClock($('.clock'), timeRemaining, {
 
