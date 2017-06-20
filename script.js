@@ -34,8 +34,14 @@ $(document).ready(function() {
 
     $('#show-test-btn').click(function(){
       $('#show-test-btn-container').css("display", "none");
-      $('#test-results').css("display", "flex");
+      $('.test-results').css("display", "flex");
+			$('body').css("background-image", "url(assets/img/lips.png)");
+			$('body').css("animation", "shrink 2s infinite alternate");
 
+			setInterval(function(){
+				$('body').css("animation", "");
+				$('body').css("background-image", "url(assets/img/heart.gif)");
+			},8000);
 
     })
 });

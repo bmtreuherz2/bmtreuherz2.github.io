@@ -39,3 +39,12 @@ body{
   font-weight: 300;
   line-height: 1.1;
 }
+
+@keyframes shrink {
+  0% {
+    background-size: 20%;
+  }
+  100% {
+    background-size: 22%;
+  }
+}
