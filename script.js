@@ -41,7 +41,7 @@ $(document).ready(function() {
 			setInterval(function(){
 				$('body').css("animation", "");
 				$('body').css("background-image", "url(assets/img/heart.gif)");
-			},8000);
+			},12000);
 
     })
 });
